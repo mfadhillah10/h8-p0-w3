@@ -13,6 +13,15 @@ dataHandling2(input);
 var tgl = '21/05/1989';
 var pisah = tgl.split('/');
 
+var ele1 = Number(pisah[0]);
+var ele2 = Number(pisah[1]);
+var ele3 = Number(pisah[2]);
+
+var tgl1 = [];
+tgl1.push(ele1, ele2, ele3);
+tgl1.sort(function(value1, value2){ return value1 < value2});
+console.log(tgl1);
+
 // input menggunakan built-in join() untuk membuat separator tanggalan menggunakan simbol '-'
 console.log(pisah.join('-'));
 
