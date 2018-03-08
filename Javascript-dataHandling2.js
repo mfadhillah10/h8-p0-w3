@@ -13,6 +13,7 @@ function dataHandling2(arg) {
 var tgl = '21/05/1989';
 var pisah = tgl.split('/');
 
+// mengubah tanggalan dari string menjadi Number dan memasukkan nya ke dalam array baru
 var ele1 = Number(pisah[0]);
 var ele2 = Number(pisah[1]);
 var ele3 = Number(pisah[2]);
