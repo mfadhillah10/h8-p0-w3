@@ -6,8 +6,8 @@ function dataHandling2(arg) {
     input.splice(4,0,'Pria');
     input.splice(5,1,'SMA Internasional Metro');
     console.log(input);
-}
-dataHandling2(input);
+
+
 
 // input menggunakan built-in split() untuk memisahkan tanggal, bulan dan tahun
 var tgl = '21/05/1989';
@@ -109,3 +109,5 @@ switch
     }
 }
 console.log(pisah[1]);
+}
+dataHandling2(input);
