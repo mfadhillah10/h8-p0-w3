@@ -1,14 +1,13 @@
 function groupAnimals(animals) {
     // you can only write your code here!
+    animals.sort();
     var hewan = [];
     var huruf = animals[0][0];
     var kebunBinatang = [];
-    animals.sort();
-    
     for (var i = 0; i < animals.length; i ++) {
       if (animals[i][0] === huruf) {
         hewan.push(animals[i]);
-      }
+      } 
       else {
         kebunBinatang.push(hewan);
         hewan = [];
